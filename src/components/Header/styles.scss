@@ -1,0 +1,26 @@
+@import "../../styles/variables/media-queries";
+
+.header {
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 0 8px 0 #888;
+  box-sizing: border-box;
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+  padding: 0 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  @include mobile {
+    display: grid;
+    height: 80px;
+    justify-content: center;
+    text-align: center;
+  }
+  @include tablet {
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+  }
+}

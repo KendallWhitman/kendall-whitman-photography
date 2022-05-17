@@ -1,0 +1,38 @@
+@import "../../styles/variables/media-queries";
+@import "../../styles/variables/typography";
+
+.table {
+
+  &__wrapper {
+    &:not(:last-child) {
+      border-bottom: 1px dashed #000;
+    }
+    @include mobile {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 60px;
+    }
+  }
+
+  &__title {
+    @include headline;
+    &:first-child {
+      margin: 0 0 15px;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+  }
+
+  &__item {
+    @include text;
+    &:first-child {
+      @include headline;
+      margin: 0 0 10px;
+    }
+  }
+
+}

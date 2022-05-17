@@ -1,0 +1,15 @@
+@mixin headline {
+  font-family: Oswald, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+@mixin text {
+  color: #000;
+  font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+
+  &--spaced {
+    margin: 0 0 15px;
+  }
+}

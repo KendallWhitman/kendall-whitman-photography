@@ -1,0 +1,26 @@
+@import "../../styles//variables/media-queries";
+@import "../../styles//variables/typography";
+
+.section {
+  @include tablet {
+    align-items: center;
+    display: flex;
+  }
+
+  .headline {
+    @include headline;
+  }
+
+  .text {
+    @include text;
+  }
+
+  &__image {
+    margin: 0 15px 0 0;
+    width: 100%;
+    @include tablet {
+      width: 300px;
+    }
+  }
+
+}

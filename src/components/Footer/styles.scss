@@ -1,0 +1,22 @@
+@import "../../styles/variables/media-queries";
+
+.footer {
+  background: #333;
+  display: grid;
+  justify-content: center;
+  padding: 15px;
+  @include mobile-max {
+    grid-gap: 15px;
+  }
+  @include mobile {
+    justify-content: space-between;
+  }
+
+  &__copyright {
+    color: #fff;
+    grid-column: 1;
+    font-family: Oswald, sans-serif;
+    font-size: 14px;
+    margin: 0;
+  }
+}

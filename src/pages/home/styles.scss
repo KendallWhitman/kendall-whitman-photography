@@ -1,0 +1,24 @@
+@import "../../styles/variables/media-queries";
+
+.main {
+  flex: 1;
+
+  &--constrained {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 30px 15px;
+    width: 100%;
+  }
+}
+
+.slideshow {
+  height: calc(100vh - 202px);
+  width: 100%;
+  @include mobile {
+    height: calc(100vh - 158px);
+  }
+  @include tablet {
+    height: calc(100vh - 143px);
+  }
+}
