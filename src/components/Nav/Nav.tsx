@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { navData } from '../../data';
-import { useLocation } from '@reach/router';
-import "./styles.scss";
+import { navData } from '../../data'
+import { useLocation } from '@reach/router'
+import './styles.scss'
 
 const Nav = ({ menuActive = false }) => {
-  const { pathname } = useLocation();
+  const { pathname } = useLocation()
 
   return (
     <nav className={`nav ${menuActive ? 'nav--active' : ''}`}>

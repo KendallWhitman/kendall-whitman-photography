@@ -1,13 +1,14 @@
 import React from 'react'
-import PropTypes from "prop-types"
+import PropTypes from 'prop-types'
 import Header from '../Header'
 import Seo from '../Seo'
 import Footer from '../Footer'
-import PageTitle from '../PageTitle';
+import PageTitle from '../PageTitle'
+import './styles.scss'
 
-const Layout = ({ children, constrained = false, title }) => (
+const Layout = ({ children, constrained }) => (
   <>
-    <Seo title={title} />
+    <Seo />
     <Header />
     <main className={`main ${constrained ? 'main--constrained' : ''}`}>
       <PageTitle />
@@ -18,11 +19,11 @@ const Layout = ({ children, constrained = false, title }) => (
 )
 
 Layout.defaultProps = {
-  title: 'Home',
+  constrained: false,
 }
 
 Layout.PropTypes = {
-  title: PropTypes.string,
+  constrained: PropTypes.bool,
 }
 
 export default Layout

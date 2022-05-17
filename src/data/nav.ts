@@ -5,23 +5,23 @@ const navData = [
   },
   {
     label: 'Headshots',
-    url: '/headshots',
+    url: '/headshots/',
   },
   {
     label: 'Portraits',
-    url: '/portraits',
+    url: '/portraits/',
   },
   {
     label: 'Rates',
-    url: '/rates',
+    url: '/rates/',
   },
   {
     label: 'About',
-    url: '/about',
+    url: '/about/',
   },
   {
     label: 'Contact',
-    url: '/contact',
+    url: '/contact/',
   },
 ]
 

@@ -10,11 +10,11 @@ const AboutPage = ({ data }) => {
       <div className='section'>
         <img
           src={data.allFile.edges[0].node.childImageSharp.fixed.src}
-          alt={globalData.companyNameFirst}
+          alt={globalData.nameFirst}
           className='section__image'
         />
         <div>
-          <h3 className='headline'>{globalData.companyNameFirst}</h3>
+          <h3 className='headline'>{globalData.nameFirst}</h3>
           <p className='text'>{aboutData.description}</p>
         </div>
       </div>

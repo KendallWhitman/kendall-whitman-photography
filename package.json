@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "kendall-whitman-photography",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Kendall Whitman Photography Portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kendall Whitman <kendall@kendallwhitman.photography>",
   "dependencies": {
     "gatsby": "^4.13.1",
     "gatsby-plugin-gatsby-cloud": "^4.13.0",

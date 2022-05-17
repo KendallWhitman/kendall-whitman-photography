@@ -1,7 +1,9 @@
 const globalData = {
-  companyName: 'Kendall Whitman Photography',
-  companyNameFirst: 'Kendall Whitman',
-  companyNameSecond: 'Photography',
+  name: 'Kendall Whitman Photography',
+  nameFirst: 'Kendall Whitman',
+  nameSecond: 'Photography',
+  nameFirstShort: 'KW',
+  nameSecondShort: 'P',
 }
 
 export default globalData

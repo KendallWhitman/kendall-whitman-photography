@@ -13,12 +13,6 @@
   top: 0;
   z-index: 1;
   @include mobile {
-    display: grid;
-    height: 80px;
-    justify-content: center;
-    text-align: center;
-  }
-  @include tablet {
     display: flex;
     height: 65px;
     justify-content: space-between;
