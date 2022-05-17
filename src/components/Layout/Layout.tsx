@@ -22,7 +22,7 @@ Layout.defaultProps = {
   constrained: false,
 }
 
-Layout.PropTypes = {
+Layout.propTypes = {
   constrained: PropTypes.bool,
 }
 
