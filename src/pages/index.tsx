@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import { Layout } from '../components';
 import '../styles/index.scss'
+import { Layout } from '../components';
 
 const IndexPage = ({ data }) => {
   const [index, setIndex] = useState(0)

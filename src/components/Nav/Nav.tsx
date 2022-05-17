@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { navData } from '../../data'
 import { useLocation } from '@reach/router'
+import { navData } from '../../data'
 import './styles.scss'
 
 const Nav = ({ menuActive = false }) => {

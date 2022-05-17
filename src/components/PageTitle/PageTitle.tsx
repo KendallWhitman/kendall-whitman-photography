@@ -1,6 +1,4 @@
 import React from 'react'
-import { useLocation } from '@reach/router'
-import { navData } from '../../data'
 import usePageTitle from '../../hooks/usePageTitle'
 import './styles.scss'
 
