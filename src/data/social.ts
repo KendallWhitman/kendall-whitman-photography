@@ -12,12 +12,12 @@ const socialData = [
     icon: Instagram,
     iconDark: InstagramDark,
   },
-  // {
-  //   name: 'Facebook',
-  //   url: 'https://www.facebook.com/kendallwhitmanphotography',
-  //   icon: Facebook,
-  //   iconDark: FacebookDark,
-  // },
+  {
+    name: 'Facebook',
+    url: 'https://www.facebook.com/KendallWhitmanPhotography',
+    icon: Facebook,
+    iconDark: FacebookDark,
+  },
   // {
   //   name: 'Twitter',
   //   url: 'https://twitter.com/kendallwhitman',
