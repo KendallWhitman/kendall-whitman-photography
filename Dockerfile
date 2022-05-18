@@ -3,6 +3,6 @@ WORKDIR portfolio
 COPY . .
 RUN npm i
 RUN npm run build
-RUN gatsby telemetry --disable
+RUN npm gatsby telemetry --disable
 EXPOSE 8005
 CMD npm run serve
