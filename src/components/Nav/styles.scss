@@ -3,7 +3,7 @@
 .nav {
   @include mobile-max {
     position: fixed;
-    right: -50vw;
+    right: -225px;
     top: 65px;
     transition: right 0.2s, background 0.2s;
   }
@@ -19,7 +19,7 @@
     @include mobile-max {
       background: #333;
       height: calc(100vh - 65px);
-      width: 50vw;
+      width: 225px;
     }
     @include mobile {
       display: flex;
