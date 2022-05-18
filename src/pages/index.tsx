@@ -36,6 +36,8 @@ export const pageQuery = graphql`
         node {
           childImageSharp {
             gatsbyImageData(
+              formats: [WEBP, JPG],
+              placeholder: BLURRED,
               quality: 100,
             )
           }
