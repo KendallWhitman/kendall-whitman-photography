@@ -72,7 +72,7 @@ module.exports = {
           // Avoids sending pageview hits from custom paths
           exclude: [],
           // Defaults to https://www.googletagmanager.com
-          origin: "YOUR_SELF_HOSTED_ORIGIN",
+          // origin: "YOUR_SELF_HOSTED_ORIGIN",
         },
       },
     },
