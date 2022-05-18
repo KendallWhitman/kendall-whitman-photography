@@ -69,6 +69,7 @@ const Carousel = ({thumbnails, images, mosaic}: Types) => {
 
       {pos !== null &&
         <div className='carousel__wrapper'>
+          <div onClick={() => toggleCarousel(null)} className='carousel__backdrop' />
           <img
             src={Close}
             alt="Close Carousel"
