@@ -3,7 +3,7 @@ module.exports = {
     title: `Kendall Whitman Photography`,
     description: ``,
     author: `Kendall Whitman`,
-    siteUrl: `https://kendallwhitman.photogrpahy`,
+    siteUrl: `https://kendallwhitman.photography`,
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -22,10 +22,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `kendall-whitman-photography`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#000`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
