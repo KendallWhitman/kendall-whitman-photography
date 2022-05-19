@@ -1,0 +1,11 @@
+@import "../../styles/variables/typography";
+
+.headline-404 {
+  @include headline;
+  text-align: center;
+}
+
+.text-404 {
+  @include text;
+  text-align: center;
+}
