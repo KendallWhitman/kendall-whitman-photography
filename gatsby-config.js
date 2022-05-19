@@ -13,6 +13,19 @@ module.exports = {
       resolve: `gatsby-plugin-sitemap`,
       options: {
         output: '/',
+        serialize: ({ path }) => {
+          let entry = {
+            url: path,
+            changefreq: 'daily',
+            priority: 0.9,
+          }
+
+          if (path === '/') {
+            entry.priority = 1.0
+          }
+
+          return entry
+        },
       },
     },
     {
