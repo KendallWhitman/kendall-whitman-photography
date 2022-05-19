@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Kendall Whitman Photography`,
-    description: ``,
+    description: `Kendall Whitman is a photographer based in the Dallas Fort Worth metroplex specializing in actor headshots, professional headshots, as well as lifestyle portraits.`,
     author: `Kendall Whitman`,
     siteUrl: `https://kendallwhitman.photography`,
   },
