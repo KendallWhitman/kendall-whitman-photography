@@ -62,6 +62,29 @@ const ratesData = [
       },
     ]
   },
+  {
+    title: 'Portraits / Family Portraits / Senior Portraits',
+    rates: [
+      {
+        rate: '$200',
+        retouches: '3 Retouched Images',
+        looks: '1 Look',
+        time: '30 Minutes',
+      },
+      {
+        rate: '$350',
+        retouches: '6 Retouched Images',
+        looks: '1-2 Looks',
+        time: '1 Hour',
+      },
+      {
+        rate: '$500',
+        retouches: '10 Retouched Images',
+        looks: '1-2 Looks / 1-2 Locations',
+        time: '2.5 Hours',
+      },
+    ]
+  },
 ]
 
 export default ratesData
