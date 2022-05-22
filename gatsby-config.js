@@ -91,11 +91,11 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it
         trackingId: "UA-120756713-2",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: true,
+        head: false,
         // Setting this parameter is optional
         anonymize: true,
         // Setting this parameter is also optional
-        respectDNT: true,
+        respectDNT: false,
         // Avoids sending pageview hits from custom paths
         exclude: [],
         // Delays sending pageview hits on route update (in milliseconds)
