@@ -73,12 +73,11 @@ module.exports = {
       options: {
         trackingIds: [
           "G-D7GMKX04DH",
-          "UA-120756713-2",
+          //"UA-120756713-2",
         ],
         gtagConfig: {
           anonymize_ip: true,
           cookie_expires: 0,
-          send_page_view: true,
         },
         pluginConfig: {
           head: true,
