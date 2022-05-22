@@ -6,7 +6,24 @@ module.exports = {
     siteUrl: `https://kendallwhitman.photography`,
   },
   plugins: [
-    "gatsby-plugin-sass",
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          // "G-D7GMKX04DH",
+          "UA-120756713-2",
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: true,
+          respectDNT: true,
+        },
+      },
+    },
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -65,23 +82,6 @@ module.exports = {
               variants: ["300", "400", "500"],
             },
           ],
-        },
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: [
-          // "G-D7GMKX04DH",
-          "UA-120756713-2",
-        ],
-        gtagConfig: {
-          anonymize_ip: true,
-          cookie_expires: 0,
-        },
-        pluginConfig: {
-          head: true,
-          respectDNT: true,
         },
       },
     },
