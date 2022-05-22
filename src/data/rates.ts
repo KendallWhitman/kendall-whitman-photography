@@ -49,16 +49,22 @@ const ratesData = [
     title: 'Corporate Headshots - Group Rates',
     rates: [
       {
+        rate: '$150 / Person',
+        people: '2-10 People',
+        retouches: '1 Retouched Image',
+        looks: '1 Look',
+      },
+      {
         rate: '$125 / Person',
-        people: '4-10 People'
+        people: '11-30 People',
+        retouches: '1 Retouched Image',
+        looks: '1 Look',
       },
       {
         rate: '$100 / Person',
-        people: '11-30 People'
-      },
-      {
-        rate: '$75 / Person',
-        people: '31-50 People'
+        people: '31-50 People',
+        retouches: '1 Retouched Image',
+        looks: '1 Look',
       },
     ]
   },
@@ -67,7 +73,7 @@ const ratesData = [
     rates: [
       {
         rate: '$200',
-        retouches: '3 Retouched Images',
+        retouches: '4 Retouched Images',
         looks: '1 Look',
         time: '30 Minutes',
       },
@@ -75,13 +81,13 @@ const ratesData = [
         rate: '$350',
         retouches: '6 Retouched Images',
         looks: '1-2 Looks',
-        time: '1 Hour',
+        time: '1.5 Hour',
       },
       {
         rate: '$500',
         retouches: '10 Retouched Images',
         looks: '1-2 Looks / 1-2 Locations',
-        time: '2.5 Hours',
+        time: '3 Hours',
       },
     ]
   },
