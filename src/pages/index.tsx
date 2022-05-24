@@ -1,16 +1,20 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react'
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { Layout } from '../components'
 import '../styles/index.scss'
-import { Layout } from '../components';
 
 const IndexPage = ({ data }) => {
   const [index, setIndex] = useState(0)
   const imageArr = data?.allFile?.edges
   const endOfImages = index < imageArr?.length - 1
+  const imageTimeout = setTimeout(() => setIndex(endOfImages ? index + 1 : 0), 5000)
   
   useEffect(() => {
-    setTimeout(() => setIndex(endOfImages ? index + 1 : 0), 5000);
+    imageTimeout
+    return () => {
+      clearTimeout(imageTimeout)
+    }
   }, [index]);
 
   return (
