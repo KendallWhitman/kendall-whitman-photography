@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { Layout } from '../../components'
 import { ratesData } from '../../data'
 import './styles.scss'
@@ -7,7 +7,7 @@ const RatesPage = () => (
   <Layout constrained>
     <div className='table'>
       {ratesData?.map(({ title, rates }) => (
-        <div key={title}>
+        <Fragment key={title}>
           <h3 className='table__title'>{title}</h3>
           <div className='table__wrapper'>
             {rates?.map((rate: any, i: number) => (
@@ -18,7 +18,7 @@ const RatesPage = () => (
               </ul>
             ))}
           </div>
-        </div>
+        </Fragment>
       ))}
     </div>
   </Layout>
