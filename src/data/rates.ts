@@ -73,13 +73,13 @@ const ratesData = [
     rates: [
       {
         rate: '$200',
-        retouches: '4 Retouched Images',
+        retouches: '10 Retouched Images',
         looks: '1 Look',
         time: '30 Minutes',
       },
       {
         rate: '$350',
-        retouches: '6 Retouched Images',
+        retouches: '10 Retouched Images',
         looks: '1-2 Looks',
         time: '1.5 Hour',
       },
@@ -87,7 +87,7 @@ const ratesData = [
         rate: '$500',
         retouches: '10 Retouched Images',
         looks: '1-2 Looks / 1-2 Locations',
-        time: '3 Hours',
+        time: '2.5 Hours',
       },
     ]
   },
